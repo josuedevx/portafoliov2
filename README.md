@@ -12,14 +12,16 @@ Reactfolio Visual Studio Code es una plantilla moderna y personalizable para por
 - [How to Use](#how-to-use)
 - [Make It Your Own](#make-it-your-own)
 - [Deploy on Vercel](#deploy-on-vercel)
+- [Deploy en GitHub Pages](#deploy-en-github-pages)
 - [Use Your Own Email API](#use-your-own-email-api)
-- [Author](#author)
+- [Contribuir al proyecto](#-contribuir-al-proyecto)
+- [Licencia](#-licencia)
 
 ---
 
-## Visión general
+## Overview
 
-### Captura de pantalla
+### Screenshot
 
 ![](./public/assets/portafoliov2.png)
 
@@ -29,9 +31,9 @@ Reactfolio Visual Studio Code es una plantilla moderna y personalizable para por
 
 ---
 
-## Proceso
+## My Process
 
-### Construido con
+### Built With
 
 - [Vite](https://vitejs.dev/) – Frontend
 - [React](https://reactjs.org/) – Biblioteca para crear interfaces de usuario
@@ -42,7 +44,7 @@ Reactfolio Visual Studio Code es una plantilla moderna y personalizable para por
 
 ---
 
-## Cómo utilizarlo
+## How to Use
 
 1. **Abre** este repositorio a tu cuenta de GitHub.
 2. **Clona** el repositorio:
@@ -65,7 +67,7 @@ Reactfolio Visual Studio Code es una plantilla moderna y personalizable para por
 
 ---
 
-## Hazlo tuyo
+## Make It Your Own
 
 Este proyecto fue diseñado para ser **fácil de desarrollar y personalizable**.
 
@@ -85,7 +87,7 @@ No es necesaria ninguna configuración complicada.
 
 ---
 
-## Despliegue en Vercel
+## Deploy on Vercel
 
 Puedes **desplegar este portafolio en minutos** utilizando [Vercel](https://vercel.com/):
 
@@ -99,7 +101,91 @@ Puedes **desplegar este portafolio en minutos** utilizando [Vercel](https://verc
 
 ---
 
-## Utiliza tu propia API de correo electrónico
+## Deploy en GitHub Pages
+
+Puedes **publicar este portafolio directamente en GitHub Pages** siguiendo estos pasos:
+
+## 1. Asegúrate de tener el campo `homepage` en `package.json`
+
+```json
+"homepage": "https://<TU_USUARIO>.github.io/<NOMBRE_DEL_REPO>"
+```
+
+Ejemplo:
+
+```json
+"homepage": "https://josuedevx.github.io/portafoliov2"
+```
+
+---
+
+## 2. Instala la dependencia `gh-pages`
+
+```bash
+npm install gh-pages --save-dev
+```
+
+---
+
+## 3. Configura `vite.config.ts` con la base del repositorio
+
+```ts
+// vite.config.ts
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+
+export default defineConfig({
+  base: "/portafoliov2/",
+  plugins: [react()],
+});
+```
+
+> Reemplaza `"portafoliov2"` por el nombre real de tu repositorio si lo cambias.
+
+---
+
+## 4. Agrega los scripts de despliegue en `package.json`
+
+```json
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+}
+```
+
+---
+
+## 5. Ejecuta el despliegue
+
+```bash
+npm run deploy
+```
+
+Esto generará el build y lo publicará en la rama `gh-pages` de tu repositorio.
+
+---
+
+## ✅ Resultado
+
+Tu sitio estará disponible en:
+
+```
+https://<TU_USUARIO>.github.io/<NOMBRE_DEL_REPO>
+```
+
+Ejemplo:
+
+```
+https://josuedevx.github.io/portafoliov2
+```
+
+---
+
+> ℹ️ Si cambias el nombre del repositorio o tu usuario de GitHub, recuerda actualizar el campo `homepage` en `package.json` y la propiedad `base` en `vite.config.ts`.
+
+---
+
+## Use Your Own Email API
 
 Este proyecto utiliza un **custom-built backend** desplegado en [Vercel](https://vercel.com/), que utiliza **Nodemailer** para la funcionalidad de correo electrónico.
 

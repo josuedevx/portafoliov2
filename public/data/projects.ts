@@ -1,6 +1,7 @@
+import { base_URL } from "./base";
 export const projects = [
   {
-    ImageURL: "/assets/ecommerce.png",
+    ImageURL: base_URL + "/assets/ecommerce.png",
     Title: "eCommerce Online",
     Description:
       "Plataforma de eCommerce con integración de pagos via PayPal, backend en PHP 8, y frontend dinámico desarrollado con JavaScript, HTML5 y CSS. Solución completa desde carrito de compras hasta procesamiento de transacciones.",
@@ -18,7 +19,7 @@ export const projects = [
     Demo: "#",
   },
   {
-    ImageURL: "/assets/keygenerador.png",
+    ImageURL: base_URL + "/assets/keygenerador.png",
     Title: "Keywords Generator",
     Description:
       "Desarrollé una herramienta automatizada de generación de keywords SEO que mediante scraping extrae metadatos y contenido de URLs para luego procesarlos con Google Gemini IA optimizando su semántica e integrando la API de Google Keyword Planner que analiza volumen de búsqueda CPC y competencia generando keywords altamente efectivas con un 40% más de rendimiento y reduciendo un 70% el tiempo de investigación tradicional gracias a su arquitectura en PHP 8 y flujo automatizado.",
@@ -38,7 +39,7 @@ export const projects = [
     Demo: "#",
   },
   {
-    ImageURL: "/assets/documentos.png",
+    ImageURL: base_URL + "/assets/documentos.png",
     Title: "Visor de Documentos en Línea",
     Description:
       "Desarrollé un sistema de gestión de documentos PDF que optimiza el acceso y la seguridad de la información. Los usuarios pueden visualizar archivos según su rol, asegurando un control de permisos eficiente. La autenticación se gestiona con SAML como IdP para reforzar la seguridad, y la infraestructura.",
@@ -57,7 +58,7 @@ export const projects = [
     Demo: "#",
   },
   {
-    ImageURL: "/assets/tableau.jpg",
+    ImageURL: base_URL + "/assets/tableau.jpg",
     Title: "Plataforma de Análisis de Datos",
     Description:
       "Colaboré en la implementación de un Identity Provider (IdP), fortaleciendo la seguridad del sistema y optimizando la experiencia del usuario mediante la integración de un inicio de sesión único (SSO) utilizando el protocolo OpenID Connect (OIDC).",
@@ -66,7 +67,7 @@ export const projects = [
     Demo: "#",
   },
   {
-    ImageURL: "/assets/personal.png",
+    ImageURL: base_URL + "/assets/personal.png",
     Title: "Gestión de Personal",
     Description:
       "Desarrollé e implementé un portal integral para la gestión y comunicación del personal, mejorando la eficiencia en la administración de datos y la interacción entre usuarios. La plataforma permitió optimizar flujos de trabajo y centralizar la información clave del equipo.",
@@ -75,7 +76,7 @@ export const projects = [
     Demo: "#",
   },
   {
-    ImageURL: "/assets/financiero.png",
+    ImageURL: base_URL + "/assets/financiero.png",
     Title: "App de Control Financiero",
     Description:
       "Desarrollé una aplicación móvil para gestionar pagos de clientes de un proveedor de servicios de Internet inalámbrico (WISP), utilizando PHP, MySQL y Android Studio, asegurando un flujo de pagos eficiente y adaptado a las necesidades del negocio.",
@@ -84,7 +85,7 @@ export const projects = [
     Demo: "#",
   },
   {
-    ImageURL: "/assets/embebido.png",
+    ImageURL: base_URL + "/assets/embebido.png",
     Title: "Embebido de Dashboards Online",
     Description:
       "Implementé la integración de dashboards analiticos en una aplicación web para visualizar información en tiempo real y mejorar la toma de decisiones basada en datos.",
@@ -100,7 +101,7 @@ export const projects = [
     Demo: "#",
   },
   {
-    ImageURL: "/assets/portal.png",
+    ImageURL: base_URL + "/assets/portal.png",
     Title: "Portal de Aprendizaje Online",
     Description:
       "Desarrollé una plataforma de cursos en línea con sistema de autenticación, seguimiento de progreso y certificados digitales. Implementé React y Node.js con una arquitectura modular y escalable.",
@@ -109,7 +110,7 @@ export const projects = [
     Demo: "#",
   },
   {
-    ImageURL: "/assets/qr.png",
+    ImageURL: base_URL + "/assets/qr.png",
     Title: "Checador de Control de Asistencias",
     Description:
       "Desarrollé un sistema de control de asistencias que permite a los empleados registrar su entrada y salida mediante un código QR único. La aplicación genera reportes semanales y mensuales, facilitando la gestión del tiempo y la asistencia del personal.",
@@ -125,19 +126,20 @@ export const projects = [
     Demo: "#",
   },
   {
-    ImageURL: "/assets/portafoliov2.png",
+    ImageURL: base_URL + "/assets/portafoliov2.png",
     Title: "Portafolio temático VSCode Developer v2",
     Description: "Mi portafolio personal con el tema Visual Studio Code.",
     Technologies: ["React", "TypeScript", "Chakra-UI", "Responsive"],
-    Source: "#",
-    Demo: "#",
+    Source: "https://github.com/josuedevx/portafoliov2",
+    Demo: "https://josuedevx.github.io/portafoliov2/",
   },
   {
-    ImageURL: "/assets/portafoliov1.png",
+    ImageURL: base_URL + "/assets/portafoliov1.png",
     Title: "Portafolio Developer v1",
-    Description: "Mi portafolio personal integrando DarkMode haciendo uso de React router, Material UI y hooks (useState, useEffect, useContext, createContext).",
+    Description:
+      "Mi portafolio personal integrando DarkMode haciendo uso de React router, Material UI y hooks (useState, useEffect, useContext, createContext).",
     Technologies: ["React", "JavaScript", "Material UI", "HTML", "Responsive"],
     Source: "https://github.com/josuedevx/portafolio",
-    Demo: "#",
+    Demo: "https://josuedevx.github.io/portafolio",
   },
 ];
