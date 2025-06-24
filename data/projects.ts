@@ -130,8 +130,8 @@ export const projects = [
     Title: "Portafolio temático VSCode Developer v2",
     Description: "Mi portafolio personal con el tema Visual Studio Code.",
     Technologies: ["React", "TypeScript", "Chakra-UI", "Responsive"],
-    Source: "#",
-    Demo: "#",
+    Source: "https://github.com/josuedevx/portafoliov2",
+    Demo: "https://josuedevx.github.io/portafoliov2/",
   },
   {
     ImageURL: base_URL + "/assets/portafoliov1.png",
@@ -140,6 +140,6 @@ export const projects = [
       "Mi portafolio personal integrando DarkMode haciendo uso de React router, Material UI y hooks (useState, useEffect, useContext, createContext).",
     Technologies: ["React", "JavaScript", "Material UI", "HTML", "Responsive"],
     Source: "https://github.com/josuedevx/portafolio",
-    Demo: "#",
+    Demo: "https://josuedevx.github.io/portafolio",
   },
 ];
