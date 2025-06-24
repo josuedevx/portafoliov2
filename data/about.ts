@@ -1,9 +1,11 @@
+import { base_URL } from "./base";
+
 export const aboutMe = {
   description: [
     "Disfruto resolver problemas complejos y aprendiendo nuevas habilidades. Me apasiona crear código de alta calidad que siga las mejores prácticas y estándares de la industria.",
     "Si quieres conocer más sobre mi trayectoria, habilidades y logros que he alcanzado, ¡te invito a descargar mi currículum actualizado! Estoy siempre abierto a nuevas oportunidades, colaboraciones y desafíos que me permitan seguir creciendo profesionalmente. ¡No dudes en contactarme si quieres conectar o trabajar juntos en algo increíble! 🚀",
   ],
-  cvPath: "/assets/CV.pdf", // 
+  cvPath: base_URL + "/assets/CV.pdf", //
   cvFileNameAfterDownload: "Josué_Alvarez-CV.pdf",
 };
 
