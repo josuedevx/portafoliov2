@@ -7,10 +7,10 @@ import {
   FaWhatsapp,
 } from "react-icons/fa";
 
-export const receiver_email = "josuealvro@gmail.com"; // Your email for recieving emails using the email service.
-// The emails are sent using a personally developed email api: https://github.com/KareemEhab/email-sender
-// Feel free to clone the email service as well and deploy your own, you'll find all the steps in the README there.
-// Make sure to update /src/utils/sendEmail.ts with your own deployed link.
+export const receiver_email = "josuealvro@gmail.com"; // Su dirección de correo electrónico para recibir mensajes a través del servicio de correo electrónico.
+// Los emails se envían usando una api de email desarrollada: https://github.com/josuedevx/email-sender
+// Siéntete libre de clonar el servicio de email también y desplegar el tuyo propio, encontrarás todos los pasos en el README allí.
+// Asegúrate de actualizar /src/utils/sendEmail.ts con tu propio enlace desplegado.
 
 export const contactInfo = [
   {
