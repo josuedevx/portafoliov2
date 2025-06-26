@@ -142,4 +142,13 @@ export const projects = [
     Source: "https://github.com/josuedevx/portafolio",
     Demo: "https://josuedevx.github.io/portafolio",
   },
+  {
+    ImageURL: base_URL + "/assets/emails.png",
+    Title: "Email API Backend con Node.js y Nodemailer",
+    Description:
+      "API sencilla de envío de emails construida con Node.js y Express usando Nodemailer.",
+    Technologies: ["Node.js", "JavaScript", "HTML", "Express"],
+    Source: "https://github.com/josuedevx/email-sender",
+    Demo: "https://email-sender-git-main-josuedevxs-projects.vercel.app",
+  },
 ];
