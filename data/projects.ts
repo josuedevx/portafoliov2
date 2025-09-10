@@ -151,4 +151,23 @@ export const projects = [
     Source: "https://github.com/josuedevx/email-sender",
     Demo: "https://email-sender-git-main-josuedevxs-projects.vercel.app",
   },
+  {
+    ImageURL: base_URL + "/assets/metadata.png",
+    Title: "Optimizador SEO de metadatos de imágenes",
+    Description:
+      "Plataforma web que optimiza los metadatos de imágenes para SEO generando automáticamente atributos alt y title usando la API de Amazon IA, mejorando la accesibilidad y el posicionamiento en buscadores.",
+    Technologies: [
+      "React",
+      "JavaScript",
+      "Bootstrap",
+      "HTML",
+      "Responsive",
+      "AWS",
+      "GraphQL",
+      "CDN",
+      "VPS",
+    ],
+    Source: "#",
+    Demo: "#",
+  },
 ];
