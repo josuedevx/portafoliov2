@@ -45,6 +45,10 @@ export const technicalSkills: Record<string, string[]> = {
     "Contenido SEO (Intermedio)",
     "Git (BitBucket, GitLab, GitHub)",
     "Agile (Scrum, Jira, Kanban)",
+    "RESTful APIs (Avanzado)",
+    "GraphQL APIs (Intermedio)",
+    "SAML (Intermedio)",
+    "OAuth 2.0 (Intermedio)",
   ],
   Habilidades: [
     "Alta capacidad resolutiva y creatividad en la solución de problemas",

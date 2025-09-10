@@ -93,7 +93,7 @@ const About = ({ setPage }: Props) => {
           mb={8}
           color="#0BCEAF"
         >
-          Conocimientos técnicos
+          Conocimientos Técnicos
         </Heading>
         <Grid
           templateColumns={{
