@@ -1,6 +1,27 @@
 import { base_URL } from "./base";
 export const projects = [
   {
+    ImageURL: base_URL + "/assets/ahorro.png",
+    Title: "App Mi Ahorro",
+    Description:
+      "AhorroInteligente es una aplicación PWA para gestionar múltiples metas de ahorro, permitiendo registrar ingresos/gastos, visualizar progreso con gráficos y organizar finanzas personales de manera intuitiva desde cualquier dispositivo.",
+    Technologies: [
+      "React",
+      "JavaScript",
+      "Bootstrap 5",
+      "CSS3",
+      "HTML5",
+      "Dexie.js",
+      "IndexedDB",
+      "PWA",
+      "Chart.js",
+      "Vite",
+      "Responsive Design",
+    ],
+    Source: "https://github.com/josuedevx/app-ahorro",
+    Demo: "https://app-ahorro-sable.vercel.app/",
+  },
+  {
     ImageURL: base_URL + "/assets/ecommerce.png",
     Title: "eCommerce Online",
     Description:
