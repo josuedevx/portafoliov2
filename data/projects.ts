@@ -1,8 +1,31 @@
 import { base_URL } from "./base";
 export const projects = [
   {
+    ImageURL: base_URL + "/assets/audiobooks.png",
+    Title: "Biblioteca de Audiolibros",
+    Description:
+      "Aplicación web de biblioteca de audiolibros con backend REST en Node.js y MySQL. Permite autenticación con JWT, gestión de biblioteca personalizada, guardado de progreso por capítulo con transacciones, estadísticas de lectura, reseñas, notas enriquecidas y sincronización de reproducción en tiempo real. Incluye integración con Stripe y manejo seguro de Webhooks multi-app.",
+    Technologies: [
+      "Node.js",
+      "Express",
+      "MySQL",
+      "JWT",
+      "REST API",
+      "Stripe",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "PDF.js",
+      "TinyMCE",
+      "Nodemon",
+    ],
+    Source: "#",
+    Demo: "https://audiobook.cristobalvarela.com",
+  },
+
+  {
     ImageURL: base_URL + "/assets/ahorro.png",
-    Title: "App Mi Ahorro",
+    Title: "App Mi Ahorro Inteligente",
     Description:
       "AhorroInteligente es una aplicación PWA para gestionar múltiples metas de ahorro, permitiendo registrar ingresos/gastos, visualizar progreso con gráficos y organizar finanzas personales de manera intuitiva desde cualquier dispositivo.",
     Technologies: [
