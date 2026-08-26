@@ -50,7 +50,14 @@ export const technicalSkills: Record<string, string[]> = {
     "SAML (Intermedio)",
     "OAuth 2.0 (Intermedio)",
   ],
-  Habilidades: [
+  "Inteligencia Artificial & Automatización": [
+    "Diseño de flujos asistidos por IA",
+    "Prompt Engineering (Estructuración y optimización de prompts)",
+    "Generación automática de contenido SEO con IA",
+    "Automatización de flujos con IA aplicada a productos web",
+    "Optimización de imágenes con asistencia de IA",
+  ],
+  "Habilidades": [
     "Alta capacidad resolutiva y creatividad en la solución de problemas",
     "Desarrollo de páginas web dinámicas y sistemas escalables",
     "Capacidad para liderar y trabajar en equipo",

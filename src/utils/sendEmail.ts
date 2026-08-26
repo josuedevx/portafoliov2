@@ -12,11 +12,11 @@ export const sendEmail = async (values: {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
-      name,
-      email,
-      subject,
-      message,
-      receiver_email,
+      name, // El nombre del remitente del mensaje.
+      email, // El correo electrónico del remitente del mensaje.
+      subject, // El asunto del mensaje.
+      message, // El contenido del mensaje.
+      receiver_email, // El correo electrónico del destinatario del mensaje (o sea mi correo personal que es josuealvro@gmai.com), que se importa desde el archivo de contacto.
     }),
   });
 };
