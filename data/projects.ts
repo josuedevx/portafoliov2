@@ -1,6 +1,50 @@
 import { base_URL } from "./base";
 export const projects = [
   {
+    ImageURL: base_URL + "/assets/dosisclaraweb.png",
+    Title: "DosisClara Web Version",
+    Description:
+      "Aplicación web progresiva (PWA) responsiva para organizar tratamientos, calcular horarios y registrar tomas de medicamentos. Construida con React, Vite y Tailwind CSS. Permite añadir medicamentos con horarios, historial de tomas almacenado en localStorage y recordatorios mediante Service Worker y notificaciones web. Incluye ajustes de sonido, vibración reforzada y sincronización periódica en navegadores compatibles. Diseñada para instalación en el teléfono (Android e iOS) y con actualizaciones automáticas. Todos los datos permanecen localmente; no se envía información a servidores.",
+    Technologies: [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "PWA",
+      "Service Workers",
+      "localStorage",
+      "IndexedDB",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "Vite Plugin PWA",
+      "Vercel",
+    ],
+    Source: "https://github.com/josuedevx/dosis-clara",
+    Demo: "https://dosis-clara.vercel.app",
+  },
+  {
+    ImageURL: base_URL + "/assets/dosisclara.jpeg",
+    Title: "DosisClara App Version",
+    Description:
+      "Aplicación móvil React Native/Expo para la gestión de medicamentos y recordatorios. Permite agregar medicamentos con horarios, almacenar el historial de tomas mediante AsyncStorage y programar notificaciones locales en Android usando expo-notifications. Incluye configuración de recordatorios, prueba de notificaciones con pantalla bloqueada y manejo del límite de notificaciones pendientes en Android. Diseñada para uso personal y compatible con SDK 54.",
+    Technologies: [
+      "React Native",
+      "Expo",
+      "expo-notifications",
+      "@react-native-async-storage/async-storage",
+      "@react-native-community/datetimepicker",
+      "expo-haptics",
+      "JavaScript",
+      "React",
+      "iOS",
+      "Android",
+      "AsyncStorage",
+      "Expo Go",
+    ],
+    Source: "https://github.com/josuedevx/dosis-clara",
+    Demo: "https://expo.dev/accounts/josuedevx/projects/dosisclara-native/builds/bdd39413-d603-4743-ba34-c8f04728b7cf",
+  },
+  {
     ImageURL: base_URL + "/assets/audiobooks.png",
     Title: "Biblioteca de Audiolibros",
     Description:
@@ -22,7 +66,6 @@ export const projects = [
     Source: "#",
     Demo: "https://audiobook.cristobalvarela.com",
   },
-
   {
     ImageURL: base_URL + "/assets/ahorro.png",
     Title: "App Mi Ahorro Inteligente",
